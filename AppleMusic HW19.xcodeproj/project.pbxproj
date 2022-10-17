@@ -14,6 +14,10 @@
 		171D57F128FD8D3700AC1AA4 /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171D57F028FD8D3700AC1AA4 /* SearchModel.swift */; };
 		171D57F328FD8D7200AC1AA4 /* RadioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171D57F228FD8D7200AC1AA4 /* RadioModel.swift */; };
 		171D57F528FD8DAA00AC1AA4 /* MediaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171D57F428FD8DAA00AC1AA4 /* MediaModel.swift */; };
+		171D57F828FD8FBE00AC1AA4 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171D57F728FD8FBE00AC1AA4 /* TabBar.swift */; };
+		171D57FB28FD903300AC1AA4 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171D57FA28FD903300AC1AA4 /* BlurView.swift */; };
+		171D57FD28FD907B00AC1AA4 /* FullPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171D57FC28FD907B00AC1AA4 /* FullPlayer.swift */; };
+		171D57FF28FD910900AC1AA4 /* MiniPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171D57FE28FD910900AC1AA4 /* MiniPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,10 @@
 		171D57F028FD8D3700AC1AA4 /* SearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
 		171D57F228FD8D7200AC1AA4 /* RadioModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioModel.swift; sourceTree = "<group>"; };
 		171D57F428FD8DAA00AC1AA4 /* MediaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaModel.swift; sourceTree = "<group>"; };
+		171D57F728FD8FBE00AC1AA4 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		171D57FA28FD903300AC1AA4 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		171D57FC28FD907B00AC1AA4 /* FullPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullPlayer.swift; sourceTree = "<group>"; };
+		171D57FE28FD910900AC1AA4 /* MiniPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +65,10 @@
 		171D57E028FD8B7400AC1AA4 /* AppleMusic HW19 */ = {
 			isa = PBXGroup;
 			children = (
+				171D580028FD912E00AC1AA4 /* App */,
+				171D57F928FD900F00AC1AA4 /* Player */,
+				171D57F628FD8F7200AC1AA4 /* TabBar */,
 				171D57EF28FD8D1000AC1AA4 /* Data */,
-				171D57E128FD8B7400AC1AA4 /* AppleMusic_HW19App.swift */,
-				171D57E328FD8B7400AC1AA4 /* ContentView.swift */,
 				171D57E528FD8B7700AC1AA4 /* Assets.xcassets */,
 				171D57E728FD8B7700AC1AA4 /* Preview Content */,
 			);
@@ -82,6 +91,33 @@
 				171D57F428FD8DAA00AC1AA4 /* MediaModel.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		171D57F628FD8F7200AC1AA4 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				171D57E328FD8B7400AC1AA4 /* ContentView.swift */,
+				171D57F728FD8FBE00AC1AA4 /* TabBar.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		171D57F928FD900F00AC1AA4 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				171D57FA28FD903300AC1AA4 /* BlurView.swift */,
+				171D57FC28FD907B00AC1AA4 /* FullPlayer.swift */,
+				171D57FE28FD910900AC1AA4 /* MiniPlayer.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		171D580028FD912E00AC1AA4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				171D57E128FD8B7400AC1AA4 /* AppleMusic_HW19App.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,8 +191,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				171D57F128FD8D3700AC1AA4 /* SearchModel.swift in Sources */,
+				171D57FB28FD903300AC1AA4 /* BlurView.swift in Sources */,
 				171D57E428FD8B7400AC1AA4 /* ContentView.swift in Sources */,
+				171D57FD28FD907B00AC1AA4 /* FullPlayer.swift in Sources */,
 				171D57E228FD8B7400AC1AA4 /* AppleMusic_HW19App.swift in Sources */,
+				171D57F828FD8FBE00AC1AA4 /* TabBar.swift in Sources */,
+				171D57FF28FD910900AC1AA4 /* MiniPlayer.swift in Sources */,
 				171D57F528FD8DAA00AC1AA4 /* MediaModel.swift in Sources */,
 				171D57F328FD8D7200AC1AA4 /* RadioModel.swift in Sources */,
 			);
